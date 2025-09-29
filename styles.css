@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px
+}
+
+body {
+    height: 100vh
+}
+nav {
+  display: flex;
+
+  gap: 30px;
+}
+
+nav button {
+  border-radius: 10px;
+  padding: 10px 20px
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-top: 15%;
+
+}
+
+.timer {
+  font-size: 96px;
+}
+
+.selected {
+  color: white;
+  background-color: black;
+}

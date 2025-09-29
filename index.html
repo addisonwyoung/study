@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="outer">
+      <nav class="nav">
+        <div class="pomodoro">
+          <button class="pom">pomodoro</button>
+        </div>
+        <div class="short">
+          <button class="short">short break</button>
+        </div>
+        <div class="long">
+          <button class="long">long break</button>
+        </div>
+      </nav>
+       <p class="timer">25:00</p>
+       <div class="state-management">
+          <button data-state="pause" class="state">start</button>
+       </div>
+
+    </div>
+   
+    <audio src="nakime_biwa_sound_effect.mp3" class="ringer">
+ 
+    </audio>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
