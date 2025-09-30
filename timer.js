@@ -4,8 +4,8 @@ let state = document.querySelector('.state')
 
 
 export let current = {
-  minutes: 0,
-  seconds: 10,
+  minutes: 25,
+  seconds: 0,
   mode: "pomodoro",
   timer: ""
 }

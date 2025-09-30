@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Exile&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1 class="title">Study Time</h1>
     <div class="outer">
       <nav class="nav">
         <div class="pomodoro">
-          <button class="pom">pomodoro</button>
+          <button class="pom selected">pomodoro</button>
         </div>
         <div class="short">
           <button class="short">short break</button>
@@ -22,6 +26,7 @@
        <p class="timer">25:00</p>
        <div class="state-management">
           <button data-state="pause" class="state">start</button>
+          <img id="reset-icon" src="reset.png" alt="">
        </div>
 
     </div>
